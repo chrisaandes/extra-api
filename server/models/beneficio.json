@@ -1,6 +1,6 @@
 {
-  "name": "Company",
-  "plural": "companies",
+  "name": "beneficio",
+  "plural": "beneficios",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -11,38 +11,34 @@
       "type": "string",
       "required": true
     },
-    "logo": {
+    "description": {
+      "type": "string"
+    },
+    "company": {
+      "type": "number",
+      "required": true
+    },
+    "condiciones": {
       "type": "string",
       "required": true
     },
-    "main": {
-      "type": "number",
-      "required": false
+    "imagen": {
+      "type": "string"
+    },
+    "valor": {
+      "type": "number"
+    },
+    "endDate": {
+      "type": "date",
+      "required": true
     },
     "category": {
       "type": "number",
-      "required": false
-    },
-    "email": {
-      "type": "string",
       "required": true
-    },
-    "address": {
-      "type": "string",
-      "required": true
-    },
-    "coords": {
-      "type": "string"
-    },
-    "phone": {
-      "type": "string"
-    },
-    "extra": {
-      "type": "string"
     },
     "status": {
       "type": "boolean",
-      "default": true
+      "required": true
     }
   },
   "validations": [],

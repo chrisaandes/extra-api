@@ -51,5 +51,29 @@
   "Company": {
     "dataSource": "db",
     "public": true
+  },
+  "beneficio": {
+    "dataSource": "db",
+    "public": true
+  },
+  "sorteo": {
+    "dataSource": "db",
+    "public": true
+  },
+  "category": {
+    "dataSource": "db",
+    "public": true
+  },
+  "newsletter": {
+    "dataSource": "db",
+    "public": true
+  },
+  "redencion": {
+    "dataSource": "db",
+    "public": true
+  },
+  "ganador": {
+    "dataSource": "db",
+    "public": true
   }
 }

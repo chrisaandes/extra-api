@@ -1,0 +1,26 @@
+{
+  "name": "ganador",
+  "plural": "ganadores",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "sorteo": {
+      "type": "number",
+      "required": true
+    },
+    "user": {
+      "type": "number"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

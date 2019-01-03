@@ -1,0 +1,40 @@
+{
+  "name": "redencion",
+  "plural": "redenciones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "beneficio": {
+      "type": "number",
+      "required": true
+    },
+    "user": {
+      "type": "number",
+      "required": true
+    },
+    "date": {
+      "type": "date"
+    },
+    "dateGestion": {
+      "type": "date"
+    },
+    "obs": {
+      "type": "string"
+    },
+    "limitDate": {
+      "type": "date"
+    },
+    "status": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
